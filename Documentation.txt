@@ -1,0 +1,26 @@
+﻿Name: Hem Arya
+Roll No :212221004
+Class: SY(BBACA)
+Project Topic: IP Info
+
+Project Profile
+This website can be used to get the information about a particular IP Address.
+
+GUIDE:
+Right on the home screen you will see an input box below the navigation bar and left side of the submit text, enter any valid IP Address there and click on the submit button or press the enter key both will get you the output just below the input box.
+
+System Requirement
+· Windows 7, Windows 8, Windows 8.1, Windows 10 or later
+· An Intel Pentium 4 processor or later that's SSE3 capable
+· Any browser that supports and is enables JavaScript and CSS.
+· Recommended browser Google Chrome, IE, Safari (10.0 or higher).
+
+Technologies Used
+HTML and CSS for frontend UI and design and JavaScript for adding functionality to button and links and few features to UI. Whole website is built on these three languages.
+
+Working
+Once the webpage is fully loaded it is ready to use. If the user doesn’t fill the input box and clicked on the submit button output will be generated of the IP, the device is connected to. If the user filled the input box and then clicked on the submit button, then IP info about that IP address will generated and will be on the screen as well as the console log. If the device is not connected to internet, then after pressing the submit button or after filling the input box if “Enter” key is pressed the output will give message as “It Seems You Are Offline Check Your Internet Connectivity”. User can download the source code of the website by clicking on Source Code link at the end of website.
+
+Contact
+If any bug or error on the website occurs user can contact to the given Gmail id or the GitHub link provided.
+
