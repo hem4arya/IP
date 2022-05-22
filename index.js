@@ -23,6 +23,7 @@ function dark(){
 
 // Function To Get Ip Info
 async function fun1() {
+  if(window.navigator.onLine){
   var format = "";
 
   // Storing response
@@ -45,6 +46,10 @@ async function fun1() {
   output.style.border = '1px solid black'
   output.innerText = format;
   console.log(data)
+}else{
+  output.innerText = "It Seems You Are Offline Check Your Internet Connectivity"
+}
+
 }
 
 /* AUTHOR HEM ARYA */
