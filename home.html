@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <img src="./ip-4-logo-pack/ip-4-logo-black-and-white.png">
+            <ul style="list-style-type: none;">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#services">INFO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <!-- <li><a href="#about">ABOUT</a></li> -->
+                <li><a onclick="dark()" id="DARK">DARK</a></li>
+            </ul>
+            <button type="button"><a href="#contactus">CONTACT US</a></button>
+        </nav>
+    </div>
+    <center>
+        <h2 class="heading">LOOK FOR IP INFO</h2><br>
+            <input type="text" id="ip" placeholder="Enter IP">
+            <button id="myBtn" onclick="fun1()" type="submit">SUBMIT</button>
+        <p id="output"></p>
+
+        <div class="rest">
+            <div id="services" class="services">
+                <h3>INFO</h3>
+                <p>IP LOOKUP Website provide close to accurate information about the IP Address. <br> <span> Just Enter
+                        Any <span>Valid IP Addresss</span> In The Upper Textbox And Click The Submit Link The IP Info
+                        Will Be On Your Screen.</span><br>Our site gives
+                    various information about the Ip Address Like COUNTRY, COUNTRYCODE, REGION(STATE), REGIONNAME(FULL
+                    NAME OF THE
+                    STATE), CITY(DISTRICT), ZIP(PINCODE), LAT(LATTITUDE), LON(LONGITUDE), TIMEZONE, ISP(Internet Service
+                    Provider Of The IP Owner), ORG(ORGANIZATION), AS, QUERY. <br>Even if you submit the empty input site
+                    will automtically retrive info of your IP Address.<br>You can also change theme of the webiste by
+                    clicking on the DARK/LIGHT option on the navbar.</p>
+            </div>
+            <div id="about" class="services">
+                <h3>ABOUT US</h3>
+                <p>Our website mission is to let you know about the ip address you are connected with. <br>To show are
+                    they someone geniune verified user of the internet or are they trying hide their identity or trying
+                    to take someone's else identity by using Tor or Tor like protocals.</p>
+                <div id="contactus">
+                    <h3>CONTACT US</h3>
+                    <p>Developed by <span> Hem Arya </span> <br> Gmail : hem.arya@moderncollegegk.org <br> Mobile No : 9373540771</p>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
+<script src="index.js"></script>
+<!-- AUTHOR HEM ARYA -->
